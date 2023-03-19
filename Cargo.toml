@@ -1,0 +1,6 @@
+[workspace]
+members = [
+  "dna/zome_1_integrity",
+  "dna/zome_1_coordinator",
+  "dna/zome_2_integrity",
+]

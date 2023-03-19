@@ -1,0 +1,17 @@
+manifest_version: '1'
+name: happ
+description: null
+roles:
+- name: sample-role
+  provisioning:
+    strategy: create
+    deferred: false
+  dna:
+    bundled: ../dna/dna.dna
+    modifiers:
+      network_seed: null
+      properties: null
+      origin_time: null
+      quantum_time: null
+    version: null
+    clone_limit: 0

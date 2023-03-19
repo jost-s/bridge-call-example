@@ -1,0 +1,15 @@
+manifest_version: '1'
+name: dna
+integrity:
+  network_seed: 00000000-0000-0000-0000-000000000000
+  properties: null
+  origin_time: 2023-03-19T02:25:29.791407Z
+  zomes:
+    - name: zome_1_integrity
+      bundled: ../target/wasm32-unknown-unknown/release/zome_1_integrity.wasm
+    - name: zome_2_integrity
+      bundled: ../target/wasm32-unknown-unknown/release/zome_2_integrity.wasm
+coordinator:
+  zomes:
+    - name: zome_1_coordinator
+      bundled: ../target/wasm32-unknown-unknown/release/zome_1_coordinator.wasm

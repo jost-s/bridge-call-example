@@ -1,0 +1,12 @@
+[package]
+edition = "2021"
+name = "zome_1_coordinator"
+version = "0.1.0"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+hdk = "0.1"
+zome_1_integrity = {path = "../zome_1_integrity"}
+zome_2_integrity = {path = "../zome_2_integrity"}
