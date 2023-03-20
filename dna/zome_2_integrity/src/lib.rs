@@ -1,12 +1,8 @@
 use hdi::prelude::*;
-
-#[hdk_entry_helper]
-pub struct Type2 {
-    pub name: String,
-}
+use zome_2_types::Type2;
 
 #[hdk_entry_defs]
 #[unit_enum(EntryTypesUnit)]
 pub enum EntryTypes {
-    Type2(Type2)
+    Type2(Type2),
 }

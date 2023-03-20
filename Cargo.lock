@@ -2369,6 +2369,7 @@ dependencies = [
  "hdk",
  "zome_1_integrity",
  "zome_2_integrity",
+ "zome_2_types",
 ]
 
 [[package]]
@@ -2381,6 +2382,15 @@ dependencies = [
 
 [[package]]
 name = "zome_2_integrity"
+version = "0.1.0"
+dependencies = [
+ "hdi",
+ "serde",
+ "zome_2_types",
+]
+
+[[package]]
+name = "zome_2_types"
 version = "0.1.0"
 dependencies = [
  "hdi",

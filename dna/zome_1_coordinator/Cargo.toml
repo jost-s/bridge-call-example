@@ -10,3 +10,4 @@ crate-type = ["cdylib", "rlib"]
 hdk = "0.1"
 zome_1_integrity = {path = "../zome_1_integrity"}
 zome_2_integrity = {path = "../zome_2_integrity"}
+zome_2_types = {path = "../zome_2_types"}

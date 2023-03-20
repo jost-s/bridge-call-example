@@ -1,6 +1,6 @@
 use hdk::prelude::*;
 use zome_1_integrity::{EntryTypes, Type1};
-use zome_2_integrity::Type2;
+use zome_2_types::Type2;
 
 #[hdk_extern]
 fn create_an_entry(_: ()) -> ExternResult<ActionHash> {
